@@ -2,3 +2,8 @@
 container_name: medusa
 image_name: linuxserver/medusa
 container_state: started
+
+volumes:
+  - /docker/medusa:/config
+  - /media:/downloads
+  - /media/TV:/tv
